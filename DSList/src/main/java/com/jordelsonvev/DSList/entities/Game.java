@@ -10,16 +10,17 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "tb name")
+@Table(name = "tb_game")
 public class Game {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String title;
-	@Column(name ="game_year")
+	
+	@Column(name = "game_year")
 	private Integer year;
 	private String genre;
-	private String platform;
+	private String platforms;
 	private String imgUrl;
 	private Double score;
 	private String shortDescription;
@@ -36,7 +37,7 @@ public class Game {
 		this.title = title;
 		this.year = year;
 		this.genre = genre;
-		this.platform = platform;
+		this.platforms = platform;
 		this.imgUrl = imgUrl;
 		this.score = score;
 		this.shortDescription = shortDescription;
@@ -76,11 +77,11 @@ public class Game {
 	}
 
 	public String getPlatform() {
-		return platform;
+		return platforms;
 	}
 
 	public void setPlatform(String platform) {
-		this.platform = platform;
+		this.platforms = platform;
 	}
 
 	public String getImgUrl() {
