@@ -1,0 +1,6 @@
+package com.jordelsonvev.DSList.repositories;
+
+public interface GameRepository {
+
+	
+}

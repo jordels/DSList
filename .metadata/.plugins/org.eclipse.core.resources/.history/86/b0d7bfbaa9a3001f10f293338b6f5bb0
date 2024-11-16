@@ -1,0 +1,12 @@
+package com.jordelsonvev.DSList.services;
+
+import org.springframework.stereotype.Service;
+
+import com.jordelsonvev.DSList.repositories.GameRepository;
+
+@Service
+public class GameService {
+	
+	public GameRepository gameRepository;
+
+}

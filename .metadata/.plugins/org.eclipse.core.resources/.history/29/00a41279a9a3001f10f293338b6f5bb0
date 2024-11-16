@@ -1,0 +1,14 @@
+package com.jordelsonvev.DSList.services;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class GameService {
+	
+	private Long id;
+	private String title;
+	private Integer year;
+	private String imgUrl;
+	private String shortDescription;
+
+}

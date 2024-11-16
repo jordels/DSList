@@ -1,0 +1,11 @@
+package com.jordelsonvev.DSList.services;
+
+public class GameService {
+	
+	private Long id;
+	private String title;
+	private Integer year;
+	private String imgUrl;
+	private String shortDescription;
+
+}

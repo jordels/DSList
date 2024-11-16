@@ -1,0 +1,15 @@
+package com.jordelsonvev.DSList.dto;
+
+public class GameMinDTO {
+
+	private Long id;
+	private String title;
+	private Integer year;
+	private String imgUrl;
+	private String shortDescription;
+	
+	public GameMinDTO(){
+		
+	}
+
+}
