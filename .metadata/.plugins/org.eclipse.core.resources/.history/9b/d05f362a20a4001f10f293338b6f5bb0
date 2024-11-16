@@ -1,0 +1,8 @@
+package com.jordelsonvev.DSList.entities;
+
+public class Belonging {
+	
+	private BelongingPK id;
+	
+
+}

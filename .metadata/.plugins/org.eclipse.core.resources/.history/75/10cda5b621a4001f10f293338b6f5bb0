@@ -1,0 +1,27 @@
+package com.jordelsonvev.DSList.entities;
+
+import jakarta.persistence.Embedded;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+
+@Entity
+@Table(name = "tb_belonging")
+public class Belonging {
+	
+	
+	@Embedded
+	private BelongingPK id = new BelongingPK();
+	
+	private Integer position;
+	
+	public Belonging() {
+		
+	}
+
+	public Belonging(Game game,GameList list, Integer position) {
+		this.id = id;
+		this.position = position;
+	}
+
+}

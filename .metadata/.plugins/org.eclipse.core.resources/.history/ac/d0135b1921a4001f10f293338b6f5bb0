@@ -1,0 +1,12 @@
+package com.jordelsonvev.DSList.entities;
+
+import jakarta.persistence.Embedded;
+
+public class Belonging {
+	
+	
+	@Embedded
+	private BelongingPK id;
+	private Integer position;
+
+}
