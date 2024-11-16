@@ -1,0 +1,17 @@
+package com.jordelsonvev.DSList.dto;
+
+public class GameDTO {
+
+	private Long id;
+	private String title;
+	private Integer year;
+	private String genre;
+	private String platforms;
+	private String imgUrl;
+	private Double score;
+	private String shortDescription;
+	private String longDescription;
+	
+	
+
+}

@@ -1,0 +1,25 @@
+package com.jordelsonvev.DSList.dto;
+
+import com.jordelsonvev.DSList.entities.Game;
+
+public class GameDTO {
+
+	private Long id;
+	private String title;
+	private Integer year;
+	private String genre;
+	private String platforms;
+	private String imgUrl;
+	private Double score;
+	private String shortDescription;
+	private String longDescription;
+	
+	public GameDTO() {
+		
+	}
+	
+	public GameDTO(Game entity) {
+		
+	}
+
+}
